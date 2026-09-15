@@ -1,0 +1,10 @@
+# Chrome profile created by launch-chrome.bat — contains a live Google login
+# session. Never commit this.
+chrome-cdp-profile/
+
+# Your exported conversations.
+output/
+failures.json
+
+node_modules/
+sidebar-debug.html

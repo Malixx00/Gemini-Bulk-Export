@@ -1,0 +1,16 @@
+{
+  "name": "gemini-conversation-export",
+  "version": "1.0.0",
+  "description": "Export every Google Gemini conversation to individual .txt files",
+  "main": "scrape.js",
+  "scripts": {
+    "start": "node scrape.js",
+    "inspect": "node inspect.js"
+  },
+  "keywords": ["gemini", "export", "backup", "playwright", "scraper"],
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright": "^1.63.0"
+  }
+}
